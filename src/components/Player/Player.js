@@ -22,11 +22,6 @@ const Player = () => {
         setSongDuration(audioRef.current.duration);
     }
 
-    /** Counting position for input range */
-    const countCurrentPosition = () => {
-        setCurrentPosition(audioRef.current.currentTime);
-    }
-
     /** Changing position in input range when song is playing */
     const changeCurrentPosition = () => {
         setCurrentPosition(audioRef.current.currentTime);
@@ -98,10 +93,7 @@ const Player = () => {
                 className={'Player__audio'}
                 ref={audioRef}
                 onTimeUpdate={changeCurrentPosition}
-                onLoadedMetadata={() => {
-                    countCurrentPosition();
-                    countDuration()
-                }}
+                onLoadedMetadata={countDuration}
                 onEnded={ended}
             />
             <InputRange
