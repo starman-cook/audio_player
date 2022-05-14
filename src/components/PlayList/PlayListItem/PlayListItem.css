@@ -1,0 +1,9 @@
+.PlayListItem {
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orange;
+    cursor: pointer;
+}
+.PlayListItem__active {
+    color: red;
+}

@@ -1,0 +1,14 @@
+.FileInput {}
+.FileInput__input {
+    display: none;
+}
+.FileInput__button {
+    padding: 10px;
+    background: #249001;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}

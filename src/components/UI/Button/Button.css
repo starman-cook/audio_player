@@ -1,0 +1,12 @@
+.Button {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    color: yellow;
+    background: #ea6f00;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}

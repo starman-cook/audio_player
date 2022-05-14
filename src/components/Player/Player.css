@@ -1,0 +1,19 @@
+
+.Player {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffd747;
+    background: linear-gradient(45deg, #ffd747 60%, #6daa1b);
+    border-radius: 40px;
+}
+
+.Player__audio {
+    display: none;
+}
+.Player__buttons-block {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
